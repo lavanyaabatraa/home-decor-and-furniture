@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eyelens</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    nav {
+      background: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      border-bottom: 1px solid #ddd;
+      background: white;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .wide-img {
+      width: 100%;
+    }
+    .product {
+      margin-bottom: 30px;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#logo">Logo</a>
+  <a href="#title">Title</a>
+  <a href="#video">Video</a>
+  <a href="#products">Products</a>
+  <a href="#navigation">Navigation</a>
+  <a href="#connect">Connect Us</a>
+</nav>
+
+<!-- Home Frame -->
+<section id="home">
+  <h1>Welcome to Eyelens</h1>
+  <p>Your gateway to style & vision</p>
+  <img src="https://cdn.shopify.com/s/files/1/0193/6253/products/3797154791472_1200x.jpg?v=1575932138" alt="Eyewear showcase" class="wide-img">
+</section>
+
+<!-- Logo Page -->
+<section id="logo">
+  <h1>Our Logo</h1>
+  <img src="https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-7adc-622f-87b5-4c5d696f2206/raw?se=2025-05-05T18%3A43%3A56Z&sp=r&sv=2024-08-04&sr=b&scid=d8e51f5a-b880-5dc1-9e10-d3d15f1d1039&skoid=de76bc29-7017-43d4-8d90-7a49512bae0f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-05T17%3A39%3A48Z&ske=2025-05-06T17%3A39%3A48Z&sks=b&skv=2024-08-04&sig=luHEEnlFB7nzvenK5POgOFFBcrWAjxDefVkBHgk%2BzVg%3D" alt="Logo">
+  <p>Symbol of clarity & confidence</p>
+</section>
+
+<!-- Title Page -->
+<section id="title">
+  <h1>Our Title</h1>
+  <h2>Eyelens — See Clearly. Style Boldly.</h2>
+  <p>
+    Welcome to Eyelens — Where Vision Meets Style<br><br>
+    At Eyelens, we believe that eyewear is not just an accessory — it’s an extension of who you are. Founded with a passion for redefining modern eyewear, Eyelens is dedicated to blending cutting-edge technology, superior craftsmanship, and timeless aesthetics to create eyewear that empowers confidence and elevates every look.<br><br>
+    From classic aviators and chic cat-eye sunglasses to sleek blue-light blocking spectacles and precision-crafted prescription frames, our collection is meticulously curated to suit every lifestyle and personality. Each pair of Eyelens eyewear is designed using high-quality materials that offer durability, comfort, and optimal protection — whether it’s shielding your eyes from harmful UV rays, reducing glare, or minimizing blue light exposure from digital devices.<br><br>
+    Driven by innovation and inspired by trends across the globe, Eyelens stands for quality, clarity, and individuality. We are committed to helping you see the world better — and letting the world see the best version of you.
+  </p>
+</section>
+
+<!-- Video Page -->
+<section id="video">
+  <h1>Our Brand Video</h1>
+  <iframe src="https://www.youtube.com/embed/nrOX6ackB14" allowfullscreen></iframe>
+  <p>Discover Eyelens in motion</p>
+</section>
+
+<!-- Products Page -->
+<section id="products">
+  <h1>Our Eyewear Collection</h1>
+
+  <div class="product">
+    <h2>Vintage Round Sunglasses</h2>
+    <img src="https://tse4.mm.bing.net/th?id=OIP.In74kQWDQpQOyQdUWty4eQHaHa&pid=Api&P=0&h=180" alt="Vintage Round Sunglasses">
+    <p><strong>Price:</strong> ₹2,299</p>
+    <p>Classic retro-style round sunglasses with UV400 protection. Perfect blend of vintage charm and modern comfort.</p>
+  </div>
+
+  <div class="product">
+    <h2>Transparent Spectacles</h2>
+    <img src="https://tse1.mm.bing.net/th?id=OIP.cxpPkvIWgJSawgJrI1mcTAHaEJ&pid=Api&P=0&h=180" alt="Transparent Spectacles">
+    <p><strong>Price:</strong> ₹1,499</p>
+    <p>Lightweight transparent frame spectacles with anti-reflective lenses. Ideal for screen work and stylish everyday wear.</p>
+  </div>
+
+  <div class="product">
+    <h2>Sports Polarized Sunglasses</h2>
+    <img src="https://tse3.mm.bing.net/th?id=OIP.E749j0XN66Lz8XoamUqpegHaHa&pid=Api&P=0&h=180" alt="Sports Polarized Sunglasses">
+    <p><strong>Price:</strong> ₹3,199</p>
+    <p>Polarized lenses for glare reduction, aerodynamic design for sports enthusiasts. Perfect for cycling, driving, and outdoor adventures.</p>
+  </div>
+</section>
+
+<!-- Navigation Page -->
+<section id="navigation">
+  <h1>Site Navigation</h1>
+  <ul>
+    <li><a href="#home">Home Frame Page</a></li>
+    <li><a href="#logo">Logo Page</a></li>
+    <li><a href="#title">Title Page</a></li>
+    <li><a href="#video">Video Page</a></li>
+    <li><a href="#products">Products Page</a></li>
+    <li><a href="#connect">Connect Us Page</a></li>
+  </ul>
+</section>
+
+<!-- Connect Us Page -->
+<section id="connect">
+  <h1>Connect with Eyelens</h1>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea placeholder="Your Message" rows="5"></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <h3>Contact Details</h3>
+  <ul>
+    <li>Email: support@eyelens.com</li>
+    <li>Phone: +91 98765 43210</li>
+    <li>Instagram: @eyelens</li>
+  </ul>
+</section>
+
+<footer>
+  <p>&copy; 2025 Eyelens. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
